@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #48A30012;
+    font-family:Poppins , sans-serif;
+}
+main{
+    padding:0 16px 32px;
+}
+ .Heading{
+    /* display: flex;
+    justify-content: center;
+    font-family:Poppins , sans-serif;
+    font-weight: 700; */
+    font-size:64px ;
+    color:#48A300;
+    text-align: center;
+}
+.Heading span{
+    color:#61481C
+}
+.app-container{
+    background-color: #FFFFFF;
+    max-width: 600px;
+    margin-inline: auto;
+    border-radius: 15px;
+    padding: 32px 42px;
+    box-shadow:0px 0px 10px 5px rgb(0,0,0,0.1);
+}
+.sub-heading{
+    margin-bottom:40px;
+}
+
+.sun-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 50px;       
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+
+.sun-rays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%; 
+    animation: rotateRays 6s linear infinite;
+    z-index: 1; 
+}
+
+
+.sun-core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;   
+    height: 50%;
+    transform: translate(-50%, -50%); 
+    object-fit: contain;
+    z-index: 2; 
+    pointer-events: none;
+}
+
+
+@keyframes rotateRays {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+
+.progress-label{
+    font-size: 15px;
+    color: #858585;
+    margin-bottom:20px ;
+    
+
+}
+.progress-bar{
+    height: 30px;
+    background-color: #48A3001A;
+    border-radius: 15px;
+}
+.progress-value{
+    height: 100%;
+    width:66%;
+    background-color: rgba(72, 163, 0, 1);
+    border-radius: 15px;
+    width:30%;
+    font-size:10px;
+    font-weight: 500;
+    color:rgba(238, 255, 224, 1);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.Warning{
+    font-size: 14px;
+    color:rgba(255, 81, 81, 1);
+    margin-block: 20px;
+}
+.goal-container{
+    border-radius: 17px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    height:82px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    margin-block: 43px;
+}
+
+.custom-checkbox{
+    height: 24px;
+    width: 24px;
+    border:2px solid rgba(97, 72, 28, 0.3);
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-checkbox{
+    height: 18px;
+    width: 18px;
+    
+}
+.completed .custom-checkbox{
+   background-color: #48A300;
+   border-color: #48A300;
+
+}
+.check-icon{
+    display: none;
+}
+.completed .check-icon{
+display: block;
+}
+
+.goal-input{
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    font-family: inherit;
+    font-size:16px;
+    background-color:#FFFFFF;
+    /* flex-grow: 1;
+    align-self: stretch; */
+    width: 100%;
+    font-weight: 500;
+}
+.completed .goal-input{
+    color: #48A300;
+    text-decoration-line:line-through;
+}
+.goal-input::placeholder{
+    color:rgba(217, 217, 217, 1);
+    border:none;
+}
+.para-next{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.designation{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 32px;
+    color: rgba(133, 133, 133, 1);
+
+}
+
+.goal-container{
+    height: 64px;
+    margin-bottom: 42px;
+    border-radius:12px ;
+}
+
+.progress-bar{
+    height: 32px;
+}
+
+
+@media (max-width:768px){
+    .Heading{
+        font-size: 32px;
+    }
+    .app-container{
+   
+    padding: 16px 32px;
+    }
+    .sun-wrapper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sun-core {
+        width: 25%;
+        height: 25%;
+    }
+}
