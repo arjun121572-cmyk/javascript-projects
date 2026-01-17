@@ -9,7 +9,7 @@ const allQuotes = [
     'Raise the bar by completing your goals!',
     'Well begun is half done!',
     'Just a step away, keep going!',
-    "Almost there! One last push and you’re done 💪",
+    // "Almost there! One last push and you’re done 💪",
     'Whoa! You just completed all the goals, time for chill :D',
 ]
 // const allGoals = JSON.parse(localStorage.getItem('allGoals')) || {first: {
