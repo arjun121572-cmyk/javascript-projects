@@ -1,47 +1,18 @@
-# 🔋 Battery Level Checker
+# JavaScript-Projects
 
-A simple JavaScript web application that displays the device's battery percentage using the Battery Status API.
+A collection of beginner-to-intermediate JavaScript projects built to strengthen core JavaScript concepts, DOM manipulation, and browser APIs.
 
-## 📌 Description
-This project shows the current battery level of the device in a visual battery bar along with percentage information. It updates dynamically based on the battery status.
+## 🔋 Battery Tester
+📁 /Battery Tester
+- Uses the Battery Status API
+- Displays battery percentage and charging status in real time  
+- Concepts used: JavaScript APIs, DOM manipulation, event handling
 
-## ✨ Features
-- Displays current battery percentage
-- Animated battery level bar
-- Clean and minimal UI
-- Real-time battery status updates
-
-## 🛠 Technologies Used
-- HTML
-- CSS
-- JavaScript (Battery Status API)
-
-## 🚀 How to Run the Project
-1. Download or clone this repository
-2. Open the `index.html` file in a supported browser
-3. The battery status will be displayed automatically
-
-## ⚠️ Browser Compatibility
-The Battery Status API is **not supported in all browsers**.
-It works best in:
-- Chromium-based browsers (limited support)
-- Some desktop environments
-
-It is **less compatible on mobile browsers like chrome or safari** due to security restrictions.
-
-## 📂 Project Structure
-01-battery-level-checker/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-
-## 📖 Learning Outcome
-- Understanding Browser APIs
-- DOM manipulation using JavaScript
-- Handling real-time data updates
+## 🎯 Focus on Today
+📁 /Focus-on-Today  
+- A daily task focus and progress tracking app
+- Visual progress bar based on task completion  
+- Concepts used: DOM manipulation, JavaScript logic, responsive UI
 
 ## 👤 Author
 Arjun Sharma
