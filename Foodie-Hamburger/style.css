@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     background-color: #F6F0EB;
-    font-family: Poppins;
+    font-family: poppins,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+nav a{
+font-weight: 700;
+font-size :20px;
 }
