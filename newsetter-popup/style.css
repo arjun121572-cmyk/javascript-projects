@@ -1,0 +1,24 @@
+body{
+background-color: #DECDAC;
+margin: 0;
+}
+.pop-up{
+    width: 690px;
+    height: 346px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #FEFAF3;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    
+}
+.close-icon{
+    font-weight: 700;
+    font-size: 48px;
+    position: absolute;
+    position: absolute;
+    right:16px;
+    cursor: pointer;
+}
