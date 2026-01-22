@@ -60,11 +60,11 @@ body {
     display: none;
 }
 
-.sec1 {
+.img-container {
     display: flex;
 }
 
-.sec1 img {
+.img-container img {
     position: relative;
     top: -45px;
 }
@@ -82,7 +82,7 @@ h2{
 p{
     font-size: 18px;
 }
-.sec2 {
+.text-container {
     padding-top: 33px;
     padding-left: 34px;
 }

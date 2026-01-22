@@ -1,4 +1,4 @@
-const button = document.querySelector("button")
+const button = document.querySelector(".news-button")
 const closeIcon = document.querySelector(".close-icon")
 const popup = document.querySelector(".popup-container")
 const overlay = document.querySelector(".overlay")
