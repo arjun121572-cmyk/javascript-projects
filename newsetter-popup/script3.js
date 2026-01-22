@@ -1,17 +1,26 @@
-const button=document.querySelector("button")
-const popUpContainer=document.querySelector(".popup-container")
-const popup=document.querySelector(".popup")
-const closeIcon=document.querySelector('.close-icon')
+const button = document.querySelector("button")
+const closeIcon = document.querySelector(".close-icon")
+const popup = document.querySelector(".popup-container")
+const overlay = document.querySelector(".overlay")
+const newsLetterCard = document.querySelector(".newsletter-card")
+const subButton = document.querySelector(".sub-button")
 
-button.addEventListener('click',()=>{
-    popUpContainer.classList.add('popup-open')
+
+button.addEventListener('click', () => {
+    popup.classList.add('popup-open')
+    newsLetterCard.classList.add('vanish-button')
 })
-closeIcon.addEventListener('click',()=>{
-    popUpContainer.classList.remove('popup-open')
+
+closeIcon.addEventListener('click', () => {
+    popup.classList.remove('popup-open')
+    newsLetterCard.classList.remove('vanish-button')
 })
-popup.addEventListener('click',(e)=>{
-    e.stopPropagation()
+
+overlay.addEventListener('click', () => {
+    popup.classList.remove('popup-open')
+    newsLetterCard.classList.remove('vanish-button')
 })
-popUpContainer.addEventListener('click',()=>{
-    popUpContainer.classList.remove('popup-open')
+subButton.addEventListener('click', () => {
+    popup.classList.remove('popup-open')
+    newsLetterCard.classList.remove('vanish-button')
 })
